@@ -1,15 +1,15 @@
 // src/app/page.js
 import React from 'react';
-import Header from './Components/header';
-import Hero from './Components/hero';
-import Work from './Components/work';
-import Slider from './Components/slider';
-import Services from './Components/services';
-import Stack from './Components/stack';
-import Together from './Components/together';
-import Certification from './Components/certification';
-import Navbar from './Components/navbar';
-import Experience from './Components/experience';
+import Header from './components/header';
+import Hero from './components/hero';
+import Work from './components/work';
+import Slider from './components/slider';
+import Services from './components/services';
+import Stack from './components/stack';
+import Together from './components/together';
+import Certification from './components/certification';
+import Navbar from './components/navbar';
+import Experience from './components/experience';
 
 const Home = () => {
   return (
