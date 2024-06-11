@@ -1,3 +1,4 @@
+// src/app/page.js
 import React from 'react';
 import Header from './Components/header';
 import Hero from './Components/hero';
@@ -25,6 +26,6 @@ const Home = () => {
       <Together />
     </div>
   );
-};;
+};
 
 export default Home;
