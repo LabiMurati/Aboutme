@@ -25,6 +25,6 @@ const Home = () => {
       <Together />
     </div>
   );
-};
+};;
 
 export default Home;
