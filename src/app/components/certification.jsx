@@ -5,9 +5,9 @@ import ictImage from "../Images/ict.jpeg";
 
 const Certification = () => {
   const CertificationItem = ({ title, content, award, src, alt }) => (
-    <div  id="certification" className="certification-item my-8">
+    <div id="certification" className="certification-item my-8">
       <div className="certification__space flex justify-center">
-        <div className="certification-item__holder flex flex-col text-white border-4 border-colorBorder  rounded-[24px] w-full md:w-[600px]">
+        <div className="certification-item__holder flex flex-col text-white border-4 border-colorBorder rounded-[24px] w-full md:w-[600px]">
           <div className="certification-item__image">
             <Image
               className="object-cover shadow-lg border-[5px] rounded-tl-[24px] rounded-tr-[24px] rounded-bl-lg rounded-br-lg border-black"
@@ -37,15 +37,15 @@ const Certification = () => {
             Certification
           </h2>
           <p className="certification__description">
-            Projects I'm currently building.
+            Projects I&apos;m currently building.
           </p>
         </div>
         <div className="certification__items">
           <CertificationItem
-            title="Web Application in Professional Development  from Europian Union"
+            title="Web Application in Professional Development from European Union"
             content="I am honored to have been awarded by the Minister of Technology as one of the
             top students in a prestigious training program endorsed by the European Union
-            to fortify Kosovo's ICT sector. This comprehensive 280-hour program equipped me
+            to fortify Kosovo&apos;s ICT sector. This comprehensive 280-hour program equipped me
             with a diverse skill set encompassing cutting-edge development techniques. The
             curriculum covered HTML, CSS, SEO, Bootstrap5, JavaScript, jQuery, Adobe
             Photoshop, and WordPress, providing me with a robust foundation in web
@@ -60,7 +60,7 @@ const Certification = () => {
             comprehensive knowledge and hands-on experience in HTML, CSS, JavaScript,
             and the fundamentals of ReactJs. My dedication and commitment to excellence
             were recognized when I was selected as the top-performing student within my
-            cohort.."
+            cohort."
             src={askImage}
             award="Best student ceremony award"
             alt="Beetroot Image"

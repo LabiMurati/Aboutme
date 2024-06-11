@@ -10,12 +10,12 @@ const handleButtonClick = () => {
 const Together = () => {
   return (
     <section className="work mb-9">
-      <div id="together" className="work__container container  bg-customBackground  p-3 rounded-lg flex flex-1 h-[296px] overflow-hidden">
-        <div className="work__together flex flex-col justify-center items-center p-3 ">
+      <div id="together" className="work__container container bg-customBackground p-3 rounded-lg flex flex-1 h-[296px] overflow-hidden">
+        <div className="work__together flex flex-col justify-center items-center p-3">
           <div className="work__information">
-            <h2 className="text-xl">Let's Work Together</h2>
+            <h2 className="text-xl">Let&apos;s Work Together</h2>
             <p className="text-sm">
-              Now that you've come this far, let's work together on your next
+              Now that you&apos;ve come this far, let&apos;s work together on your next
               website
             </p>
             <div className="work__btn flex gap-4 pt-4">
