@@ -31,3 +31,132 @@ body {
     text-wrap: balance;
   }
 }
+
+.container {
+  width: 1040px;
+  margin: 0 auto; 
+  padding: 0; 
+}
+
+.header {
+  margin: 0 auto; 
+  padding: 0; 
+}
+
+
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.embla__viewport {
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 calc(100% / 3);
+  min-width: 0;
+  height: 465px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.container {
+  /* Assuming container width is 900px */
+  width: 900px;
+}
+
+@media (min-width: 768px) {
+  embla__slide {
+    flex-basis: 290px; /* Adjust this value according to your container width */
+  }
+}
+
+.embla__prev, .embla__next {
+  margin-top: 1rem;
+}
+
+.work__img {
+  position: relative;
+  left: 22px;
+  transition: left 0.5s ease-in-out; 
+}
+
+.work__container:hover .work__img {
+  left: 0px; 
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .embla__viewport {
+    width: 100%;
+  }
+
+  .embla__slide {
+    flex: 0 0 calc(100% / 1);
+    min-width: 0;
+    padding:0px;
+  height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .embla{
+    padding: 10px;
+  }
+  .experience{
+    height: 100px;
+  }
+  .work__container{
+    height: unset;
+    flex-direction: column;
+    overflow: visible;
+  }
+  .work__img{
+    left: 0px;
+  }
+  .work__information{
+    padding-top: 30px;
+  }
+  #together{
+    padding-bottom: 60px;
+  }
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+  .mob-dev{
+    display: none;
+  }
+  .header__left__inner,
+  .header__right--inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header__left__inner {
+    text-align: center;
+  }
+}
