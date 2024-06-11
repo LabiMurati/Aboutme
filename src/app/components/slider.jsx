@@ -78,8 +78,8 @@ const EmblaCarousel = () => {
           <Image
             className="rounded-full"
             src={forwardIcon}
-            width={30}
-            height={30}
+            width={40}
+            height={40}
             alt="Next Slide"
           />
         </button>
