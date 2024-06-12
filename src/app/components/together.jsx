@@ -9,7 +9,7 @@ const handleButtonClick = () => {
 
 const Together = () => {
   return (
-    <section className="work mb-9">
+    <section className="work">
       <div id="together" className="work__container container bg-customBackground p-3 rounded-lg flex flex-1 h-[296px] overflow-hidden">
         <div className="work__together flex flex-col justify-center items-center p-3">
           <div className="work__information">
