@@ -1,9 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 h1,h2,h3,h4,h5,p,span,button{
   color: white;
 }
+
 .Home{
   background: #000;
   background-color: #000!important;
@@ -20,9 +22,9 @@ body{
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 255, 255, 255; /* White */
+    --background-start-rgb: 0, 0, 0; /* Black */
+    --background-end-rgb: 0, 0, 0; /* Black */
   }
 }
 
