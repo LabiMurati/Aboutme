@@ -20,7 +20,7 @@ const Mycv = () => {
 
   return (
     <div>
-      <button className='border p-2 rounded-lg flex gap-3 items-center' onClick={handleDownload}>
+      <button className='border text-white p-2 rounded-lg flex gap-3 items-center' onClick={handleDownload}>
         <Image src={cvIcon} width={30} height={30} alt="MyCV"/>
         Download CV
       </button>

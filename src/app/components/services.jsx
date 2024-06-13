@@ -50,7 +50,7 @@ const Services = () => (
           <Image src={serviceIcon} width={40} height={40} alt="Light Icon" />
         </div>
         <div className="services__header-title">
-          <h2 className="text-xl">Services</h2>
+          <h2 className="text-xl text-white">Services</h2>
         </div>
       </div>
       <div className="services__box-holder">
