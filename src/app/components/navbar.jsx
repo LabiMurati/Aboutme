@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <div className={`fixed bottom-4 left-1/2 transform -translate-x-1/2 z-10 ${isVisible ? 'block' : 'hidden'}`}>
-      <div className="flex space-x-6 text-gray-400 border p-3 rounded-lg border-colorShadow bg-transparent backdrop-blur-xl z-50">
+      <div className="nav flex space-x-6 text-gray-400 border p-3 rounded-lg border-colorShadow bg-transparent backdrop-blur-xl z-50">
         <a href="#home" className="hover:text-white"><FaHome /></a>
         <a href="#work" className="hover:text-white"><FaBriefcase /></a>
         <a href="#service" className="hover:text-white"><FaServicestack /></a>

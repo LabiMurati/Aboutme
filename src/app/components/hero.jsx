@@ -25,11 +25,9 @@ const Hero = () => {
       <div className="hero__holder flex flex-col gap-6">
         <div className="pt-9">
           <div className="hero__title">
-            <div className="hero__title--inner text-2xl">
-              <h2 className="font-bold">Building Websites for 3+ Years.</h2>
-              <h2 className="text-slate-400">
-                Enabling Success for Businesses Worldwide.
-              </h2>
+            <div className="hero__title--inner text-2xl pb-2">
+              <h2 className="font-bold ">Turning Coffee into Code.</h2>
+         
             </div>
 
             <p className="mt-4text-customText text-lg">
@@ -39,7 +37,10 @@ const Hero = () => {
               strategic optimization, I strive to deliver solutions that exceed
               client expectations and enhance user engagement. My commitment to
               excellence and continuous learning has established me as a
-              reliable partner in the digital development community.
+              reliable partner in the digital development community. I graduated
+              in Computer Science from UBT with a focus on Software Engineering,
+              where I honed my skills in building scalable and innovative
+              digital solutions.
             </p>
           </div>
         </div>
