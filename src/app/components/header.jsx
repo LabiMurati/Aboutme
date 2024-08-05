@@ -24,7 +24,7 @@ const Header = () => {
             <div className="header_left flex flex-col justify-center">
               <h2 className="mr-5 customText">Labinot Murati</h2>
               <p className="customText text-xs">
-                Programer, Creator, Football Lover
+              Software Engineer
               </p>
             </div>
           </div>

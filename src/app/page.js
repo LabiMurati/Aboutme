@@ -9,16 +9,15 @@ import Together from './components/together';
 import Certification from './components/certification';
 import Navbar from './components/navbar';
 import Experience from './components/experience';
-
 const Home = () => {
   return (
     <div className='Home'>
       <Header />
       <Hero />
+      <Services />
       <Work />
       <Slider />
       <Navbar />
-      <Services />
       <Stack />
       <Experience/>
       <Certification />
